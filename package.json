@@ -1,6 +1,6 @@
 {
 	"name": "@cdellacqua/express-async-wrapper",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Enable support for async syntactic sugar in express middlewares and request handlers",
 	"main": "build/index.js",
 	"types": "build/index.d.ts",
@@ -23,7 +23,6 @@
 	"files": [
 		"build/**/*"
 	],
-	"module": "express-async-wrapper",
 	"author": "Carlo Dell'Acqua",
 	"license": "MIT",
 	"devDependencies": {
