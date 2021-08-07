@@ -2,6 +2,11 @@
 
 Enable support for async syntactic sugar in express middlewares and request handlers
 
+
+[NPM Package](https://www.npmjs.com/package/@cdellacqua/express-async-wrapper)
+
+`npm install @cdellacqua/express-async-wrapper`
+
 ## How To
 
 Whenever an awaited promise rejects, the asyncWrapper will handle the exception passing it to the next available middleware
