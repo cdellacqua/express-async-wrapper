@@ -3,8 +3,8 @@
 	"version": "1.0.5",
 	"description": "Enable support for async syntactic sugar in express middlewares and request handlers",
 	"types": "build/index.d.ts",
-	"main": "build/index.cjs.js",
-	"module": "build/index.esm.js",
+	"main": "build/index.cjs",
+	"module": "build/index.js",
 	"type": "module",
 	"scripts": {
 		"build": "rimraf build && rollup -c && tsc --declaration --emitDeclarationOnly --declarationDir build",
@@ -27,8 +27,8 @@
 	],
 	"exports": {
 		".": {
-			"import": "./build/index.esm.js",
-			"require": "./build/index.cjs.js"
+			"import": "./build/index.js",
+			"require": "./build/index.cjs"
 		},
 		"./package.json": "./package.json"
 	},
